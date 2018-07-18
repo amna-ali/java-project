@@ -3,7 +3,7 @@ peline {
     stages {
         stage('Build') { 
             steps {
-                // 
+                echo "build step" 
             }
         }
         stage('Test') { 
