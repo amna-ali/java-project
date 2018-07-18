@@ -8,13 +8,13 @@ pipeline {
         }
         stage('Test') { 
               steps {
-        sayHello 'Awesome Test!'
+        echo 'Awesome Test!'
       }
  
     }
     stage('Deploy') { 
       steps {
-        sayHello 'Awesome Prod!'
+        echo 'Awesome Prod!'
       }
  
     }
